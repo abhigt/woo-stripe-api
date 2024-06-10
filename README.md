@@ -1,1 +1,1 @@
-# woo-stripe-api
+# WooCommerce Stripe Payment API

@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "6153a9bd-c68f-4285-ad57-a42014033e4b",
+		"name": "Woocommerce Stripe API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11748214"
+	},
+	"item": [
+		{
+			"name": "Woocommerce Stripe API",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\": [\r\n        {\r\n            \"id\": 40,\r\n            \"qty\": 1\r\n        }\r\n    ],\r\n    \"shipping_address_1\": \"ab\",\r\n    \"shipping_city\": \"ab\",\r\n    \"shipping_state\": \"ab\",\r\n    \"shipping_country\": \"ab\",\r\n    \"shipping_postcode\": \"ab\",\r\n    \"billing_address_1\": \"ab\",\r\n    \"billing_city\": \"ab\",\r\n    \"billing_state\": \"ab\",\r\n    \"billing_country\": \"ab\",\r\n    \"billing_postcode\": \"ab\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:55435/wp-json/wc-stripe-api/v1/order-and-charge",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55435",
+					"path": [
+						"wp-json",
+						"wc-stripe-api",
+						"v1",
+						"order-and-charge"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
